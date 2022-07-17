@@ -1,1 +1,7 @@
- function compareTriplets(a, b) {     // Write your code here     let result = [0,0]     for(let i = 0 ; i<a.length ; i++) {         if(a[i] > b[i]) result[0]+=1         else if (a[i] < b[i]) result[1] +=1         else continue     }     return result  }
+ function compareTriplets(a, b) {     // Write your code here    
+  let result = [0,0]     
+  for(let i = 0 ; i<a.length ; i++) {       
+  if(a[i] > b[i]) result[0]+=1         
+   else if (a[i] < b[i]) result[1] +=1         
+   else continue     }     
+  return result  }
